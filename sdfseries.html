@@ -1,122 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TK FANTASTIC HF SERIES</title>
+<title>SDF SERIES</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century Gothic">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" href="IMG/fantastic logo 2.jpg" width="100%">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="shortcut icon" href="IMG/fantastic logo 2.jpg" width="100%">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century Gothic">
+	
 <style>
-body,h1,h5 {font-family: "Century Gothic", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url("IMG/sdfseries.jpg");
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-	}
 a:link {
-  background-color: transparent;
   text-decoration: none;
- cursor: pointer;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  text-decoration-color: #019dd8;
+}
+
+a:active {
+  text-decoration: none;
+  text-decoration-color: #019dd8;
+}
 </style>
 </head>
 <body>
 
-<div class="bgimg w3-display-container w3-text-white">
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" style="background-color: #019dd8; width: 160px; height: 50px">Information</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" style="background-color: #bfd7ef; width: 160px; height: 50px">Contact Us</button></p>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">Information</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
   </div>
 </div>
 
-<!-- Menu Modal -->
-<div id="menu" class="w3-modal"  >
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-display-container " style="background-color:#019dd8;">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large" style="background-color:#019dd8; ">x</span>
-      <h2>GENERAL</h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Model <b>HF Series - 24</b></h5>
-      <h5>Fan Diameter <b>24 ft (7.2m)</b></h5>
-      <h5>Color <b>Airfoil : Black, Winglet: Orange</b></h5>
-      <h5>Airfoil Material <b>Aluminium</b></h5>
-      <h5>Number of Airfoils <b>5</b></h5>
-      <h5>Weight&#185; <b>69kg</b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>POWER &amp; Controls</h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Power Source <b>220~240 VAC, 1&#8709; , 50-60Hz</b></h5>
-      <h5>Control <b>Control Panel</b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>MOTOR</h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Motor Type <b>PMSM (Permanent Magnet Synchronous Motor) </b></h5>
-      <h5>Operational Temperature Range <b> 0 &#8451;~80 &#8451;</b></h5>
-    </div>
-  <div class="w3-container" style="background-color:#019dd8;">
-      <h2>PERFORMANCE </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Speed (mix/max) <b>25/55 RPM</b></h5>
-      <h5>Rated Current <b>3.8A</b></h5>
-      <h5>Power Consumption (mix/max) <b>660W</b></h5>
-      <h5>Airflow <b>14,900 m&#179;/ h</b></h5>
-      <h5>Noise (dBA) <b> &#8826;35 dBA </b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>MOUNTING </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h6>Mounting Options <b>I-Beam, Concrete Beam, Square/ Rectangular Hollow and Circular Hollow Section</b></h6>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>RANTING &amp; CERTIFICATIONS </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Environment <b>Indoor / Outdoor&nbsp;&#179;</b></h5>
-      <h5>Certifications <b>CE</b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>DIMENSIONS </h2>
-    </div>
-    <div class="w3-container">
-      <img src ="IMG/扫描全能王 2023-12-05 18.48.jpg" width="101%">
-    </div>
-     </div>
-</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="projects">
+  <img class="w3-image" src="IMG/sdfseries.jpg" alt="Architecture">
+</header>
 
-<!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container" style="background-color:#019dd8;">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Contact Us</h1>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Section -->
+
+  <div class="w3-padding-64 w3-center w3-white" id="about">
+  <h1 class="w3-jumbo"><b>SDF SERIES</b></h1>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half w3-section">
+      <ul class="w3-ul w3-card w3-hover-shadow">
+        <li class=" w3-xlarge w3-padding-32" style="background-color: #070B66; color: white;">SDF - 8</li>
+        <li class="w3-padding-16" style="text-align: left;"><h4><b>GENERAL</b></h4>
+			<b>Fan Diameter : </b>8 ft (2.4M)<br>
+			<b>Number of Airfoils : </b> 6<br>
+			<b>Fan Weight : </b> 34kg<br>
+		  </li>
+		  
+       <li class="w3-padding-16" style="text-align: left;"><h4><b>POWER &amp; CONTROLS</b></h4>
+			<b>Power Source : </b>220 - 240 VAC, 1&#8709;, 50-60 Hz<br>
+		  </li>
+		  
+	  <li class="w3-padding-16" style="text-align: left;"><h4><b>MOTOR</b></h4>
+			<b>Motor Type : </b> PMSM (Permanent Magnet Synchronous Motor)<br>
+		  </li>
+		  
+	  <li class="w3-padding-16" style="text-align: left;"><h4><b>PERFORMANCE &#185;</b></h4>
+			<b>Max Airflow : </b>2,600m&#179;<br>
+		  	<b>Rotating Speed (Rpm) : </b>160<br>
+		    <b>Noise (dBA) : </b> &#139; 38dBA<br>
+		    <b>Coverage Area (m&#178;) : </b> 140<br>
+		  </li>
+		  
+	<li class="w3-padding-16" style="text-align: left;"><h4><b>RATING &amp; CERTIFICATIONS</b></h4>
+			<b>IP Rating: </b>IP 55<br>
+		  </li>
+		  
+    <li class="w3-padding-16" style="text-align: left;"><h4><b>DIMENSION</b></h4>
+			
+		  </li>
+      </ul>
     </div>
-     <form action="/action_page.php" style="background-color:#bfd7ef;">
-	<h4><b>&nbsp;&nbsp;&nbsp;&nbsp;Send us a message:</b></h4><br>
-			  <a href="https://www.wasap.my/+601118769339" target="_blank"> 
-     <i class="fa fa-whatsapp" style="font-size:25px;color:#075E54;margin-left: 20px">&nbsp;&nbsp;&nbsp;011-1876 9339</i>
-				  </a><br><br>
-		   <a href="https://www.facebook.com/tkfantastic" target="_blank"> 
-     <i class="fa fa-facebook-f" style="font-size:25px;color:#316FF6;margin-left: 20px" >&nbsp;&nbsp;&nbsp;&nbsp;TK FANTASTIC SDN BHD</i>
-				  </a><br><br>
-		   <a href="https://www.fantastic.my/" target="_blank"> 
-     <i class="fa fa-chrome" style="font-size:25px;margin-left: 20px">&nbsp;&nbsp;TK FANTASTIC SDN BHD</i>
-				  </a><br>
-     <br><br>
-      </form>
+    <div class="w3-half w3-section">
+      <ul class="w3-ul w3-card w3-hover-shadow">
+       <li class=" w3-xlarge w3-padding-32" style="background-color: #070B66; color: white;">SDF - 10</li>
+        <li class="w3-padding-16" style="text-align: left;"><h4><b>GENERAL</b></h4>
+			<b>Fan Diameter : </b>10 ft (3M)<br>
+			<b>Number of Airfoils : </b> 6<br>
+			<b>Fan Weight : </b> 37kg<br>
+		  </li>
+		  
+       <li class="w3-padding-16" style="text-align: left;"><h4><b>POWER &amp; CONTROLS</b></h4>
+			<b>Power Source : </b>220 - 240 VAC, 1&#8709;, 50-60 Hz<br>
+		  </li>
+		  
+	  <li class="w3-padding-16" style="text-align: left;"><h4><b>MOTOR</b></h4>
+			<b>Motor Type : </b> PMSM (Permanent Magnet Synchronous Motor)<br>
+		  </li>
+		  
+	  <li class="w3-padding-16" style="text-align: left;"><h4><b>PERFORMANCE &#185;</b></h4>
+			<b>Max Airflow : </b>3,300m&#179;<br>
+		  	<b>Rotating Speed (Rpm) : </b>105<br>
+		    <b>Noise (dBA) : </b> &#139; 38dBA<br>
+		    <b>Coverage Area (m&#178;) : </b> 210<br>
+		  </li>
+		  
+    <li class="w3-padding-16" style="text-align: left;"><h4><b>DIMENSION</b></h4>
+			<br><br>
+		  </li>
+      </ul>
     </div>
   </div>
+  <br>
+</div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact" style="text-align: center;">
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Contact Us</b></h2>
+    <form action="/action_page.php" target="_blank">
+     <h5>
+     <b>Contact Number : </b><a href="http://www.wasap.my/+601118769339" target="_blank">011-1876 9339</a><br>
+     <b>Facebook : </b><a href="http://www.facebook.com/tkfantastic" target="_blank">TK FANTASTIC SDN BHD</a><br>
+     <b>Webside : </b><a href="http://www.fantastic.my" target="_blank">TK FANTASTIC SDN BHD</a><br></h5>     
+
+    </form>
+  </div>
+</div>
 </body>
 </html>
